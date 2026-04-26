@@ -43,9 +43,13 @@
       "import": "./dist/src/storage/index.js",
       "types": "./dist/src/storage/index.d.ts"
     },
-    "./prover-registry": {
-      "import": "./dist/src/prover-registry/index.js",
-      "types": "./dist/src/prover-registry/index.d.ts"
+    "./sp-registry": {
+      "import": "./dist/src/sp-registry/index.js",
+      "types": "./dist/src/sp-registry/index.d.ts"
+    },
+    "./marketplace": {
+      "import": "./dist/src/marketplace/index.js",
+      "types": "./dist/src/marketplace/index.d.ts"
     }
   },
   "scripts": {

@@ -453,7 +453,7 @@ export class StorageContext {
    * 5. Exits early as soon as a non-empty matching dataset is found
    *
    * The batched enrichment exists to bound RPC calls for accounts with many
-   * datasets. Before simplifying, see https://github.com/FilOzone/prova-sdk/issues/631
+   * datasets. Before simplifying, see https://github.com/FilOzone/synapse-sdk/issues/631
    */
   private static async resolveByProviderId(
     clientAddress: Address,

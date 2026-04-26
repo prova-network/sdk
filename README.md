@@ -24,6 +24,9 @@ Two packages, forked from [`FilOzone/synapse-sdk`](https://github.com/FilOzone/s
   - `endorsements/` (Filecoin SP endorsement system)
 - Attribution preserved: `ATTRIBUTION.md`, file-level SPDX pending on new files
 - 1,045 `prova`/`Prova` references now live where `synapse`/`Synapse` used to be
+- (2026-04-26) `sdk/tsconfig.json` reference to `../synapse-core/` retargeted to `../core/`
+- (2026-04-26) `sdk/package.json` `exports` had a stray `./prover-registry` entry pointing at a non-existent dir; replaced with the actual `./sp-registry` and `./marketplace` exports
+- (2026-04-26) `sdk/README.md` and `core/README.md` rewritten as Prova docs (were still upstream Synapse copies)
 
 ### Remaining before compile ⚠️
 
